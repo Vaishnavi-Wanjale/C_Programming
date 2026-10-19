@@ -13,7 +13,7 @@ Programs &amp; assignments for Logic Building batch - C
    ```bash
    gcc program1_1.c -o myexe.exe
 
-## Run the executable:
+## Run the executable
 1. On Windows: myexe.exe
 
 2. On Linux/Mac: ./myexe.exe
