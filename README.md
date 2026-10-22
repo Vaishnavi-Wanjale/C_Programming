@@ -6,6 +6,9 @@ Programs &amp; assignments for Logic Building batch - C
   - Assignment_1/ (Q1-Q5)
   - Assignment_2/ (Q1-Q5)
   - Assignment_3/ (Q1-Q5)
+  - Assignment_4/ (Q1-Q5)
+  - Assignment_5/ (Q1-Q5)
+  - Assignment_6/ (Q1-Q5)
 
 ## How to Compile and Run
 1. Open your terminal inside the specific assignment directory.
