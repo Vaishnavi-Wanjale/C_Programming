@@ -2,33 +2,33 @@
 
 typedef int BOOL;
 
-#define true 1
-#define false 0
+#define TRUE 1
+#define FALSE 0
 
 BOOL ChkVowel(char CValue)
 {
   if (CValue == 'a' || CValue == 'e' || CValue == 'i' || CValue == 'o' || CValue == 'u' ||
       CValue == 'A' || CValue == 'E' || CValue == 'I' || CValue == 'O' || CValue == 'U')
   {
-    return true;
+    return TRUE;
   }
   else
   {
-    return false;
+    return FALSE;
   }
 }
 
 int main()
 {
   char cValue = '\0';
-  BOOL bRet = false;
+  BOOL bRet = FALSE;
 
   printf("Enter character :\n");
   scanf("%c", &cValue);
 
   bRet = yChkVowel(cValue);
 
-  if (bRet == true)
+  if (bRet == TRUE)
 
   {
     printf("%c is a Vowel", cValue);
