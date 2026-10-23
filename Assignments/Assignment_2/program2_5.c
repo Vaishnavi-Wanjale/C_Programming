@@ -1,53 +1,51 @@
 ////////////////////////////////////
 //
-//Function Name : ChkEven
-//Description : even or odd
-//Input : int
-//Output : bool
-//Author : Vaishnavi Santosh Wanjale
-//Date : 18/10/2026
+// Function Name : ChkEven
+// Description : even or odd
+// Input : int
+// Output : bool
+// Author : Vaishnavi Santosh Wanjale
+// Date : 18/10/2026
 //
 ////////////////////////////////////
 
-#include<stdio.h>
+#include <stdio.h>
 
-#define true 1
-#define false 0
+#define TRUE 1
+#define FALSE 0
 
 typedef int BOOL;
 
 BOOL ChkEven(int iNo)
 {
-  if((iNo % 2) == 0)
+  if ((iNo % 2) == 0)
   {
-    return true;
+    return TRUE;
   }
   else
   {
-    return false;
+    return FALSE;
   }
-
 }
 
 int main()
 {
   int iValue = 0;
-  BOOL bRet = false;
+  BOOL bRet = FALSE;
 
   printf("Enter number : \n");
-  scanf("%d",&iValue);
+  scanf("%d", &iValue);
 
   bRet = ChkEven(iValue);
 
-  if(bRet == true)
+  if (bRet == TRUE)
   {
-    printf("%d is a even number\n",iValue);
+    printf("%d is a even number\n", iValue);
   }
-  else{
-    printf("%d is a odd number\n",iValue);
+  else
+  {
+    printf("%d is a odd number\n", iValue);
   }
-
-  
 
   return 0;
 }
